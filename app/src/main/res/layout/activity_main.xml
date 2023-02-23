@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -43,7 +44,8 @@
             android:ems="10"
             android:hint="usuario"
             android:inputType="textPersonName"
-            android:textColor="#252525" />
+            android:textColor="#252525"
+            android:textColorHint="#252525" />
 
         <TextView
             android:id="@+id/textView4"
@@ -65,6 +67,16 @@
             android:inputType="textPersonName"
             android:textColor="#252525"
             android:textColorHint="#656565" />
+
+        <Button
+            android:id="@+id/btnAlerta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#6200ED"
+            android:onClick="login"
+            android:text="Ingresar"
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
